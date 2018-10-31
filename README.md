@@ -13,6 +13,9 @@ It contains applications demonstrating Bluetooth Smart profiles:
 * **Glucose Monitor**,
 * **Proximity Monitor**. 
 
+### Bladder Closed Loop Optogenetic Control System
+This repo is a modified version of Nordic Semiconductor's nRF Toolbox iOS app to interface the user for controlling the closed loop optogenetic control systems. 
+
 ### Device Firmware Update
 
 The **Device Firmware Update (DFU)** profile allows you to update the application, bootloader and/or the Soft Device image over-the-air (OTA). It is compatible with Nordic Semiconductor nRF51822 devices that have the S110 SoftDevice and bootloader enabled. From version 1.5 onward, the nRF Toolbox has allowed to send the required init packet. More information about the init packet may be found here: [init packet handling](https://github.com/NordicSemiconductor/nRF-Master-Control-Panel/tree/master/init%20packet%20handling).
